@@ -17,8 +17,6 @@ function App() {
     setLoading(false);
   };
 
-  
-
   return (
     <Container>
       {isLoading ? console.log('Text Loading...') : <Text>{text}</Text>}
@@ -28,6 +26,9 @@ function App() {
     </Container>
   );
 };
+
+    //Styled-Components
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
